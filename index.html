@@ -74,12 +74,12 @@
               </div>
               <ul class="wrap-list dark">
                 <div v-for="(cate, index) in item.expand.sort" :key="index">
-                  <li><a href="/categories/doc/">📒 {{cate.name}}</a></li>
+                  <li><a>📒 {{cate.name}}</a></li>
                 </div>
               </ul>
               <ul class="wrap-list dark">
                   <div v-for="(tag, index) in item.expand.tag" :key="index">
-                    <li><a href="/tags/doc/">🏷️ {{tag.name}}</a></li>
+                    <li><a>🏷️ {{tag.name}}</a></li>
                   </div> 
               </ul>
             </div>
